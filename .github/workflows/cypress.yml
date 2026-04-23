@@ -16,7 +16,7 @@ jobs:
         run: npm install
 
       - name: Run Cypress tests
-        run: npx cypress run
+        run: npx cypress run --reporter mochawesome
 
       - name: Upload report
         uses: actions/upload-artifact@v4
