@@ -1,4 +1,5 @@
-/// <reference types="cypress" />
+// Updated by Nadira - Day 4 practice
+s/// <reference types="cypress" />
 
 // Welcome to Cypress!
 //
